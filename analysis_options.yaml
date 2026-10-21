@@ -3,6 +3,7 @@ analyzer:
     - android/**
     - web/**
     - build/**
+    - ios/**
 
 linter:
   rules:

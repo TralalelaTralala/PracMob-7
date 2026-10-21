@@ -25,6 +25,10 @@ migrate_working_dir/
 
 # Flutter/Dart/Pub related
 android/local.properties
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/

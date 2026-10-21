@@ -35,3 +35,7 @@ flutter run -d emulator-5554
 adb shell am start -a android.intent.action.VIEW -d "food://app/restaurants/basil"
 ```
 
+## Демонстрація
+
+Запис роботи застосунку: [pracmob7-demo.mp4](demo/pracmob7-demo.mp4).
+
