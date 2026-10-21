@@ -14,14 +14,14 @@ flutter run -d emulator-5554
 
 | Шлях | Екран | Умова |
 |---|---|---|
-| `/restaurants?sort=rating` або `?sort=distance` | Список ресторанів | — |
-| `/restaurants/:restaurantId` | Меню ресторану | — |
-| `/restaurants/:restaurantId/dish/:dishId` | Страва | — |
-| `/cart` | Кошик | — |
+| `/restaurants?sort=rating` або `?sort=distance` | Список ресторанів | - |
+| `/restaurants/:restaurantId` | Меню ресторану | - |
+| `/restaurants/:restaurantId/dish/:dishId` | Страва | - |
+| `/cart` | Кошик | - |
 | `/address` | Вибір адреси | Повертає адресу в кошик через `context.pop(value)` |
 | `/checkout` | Оформлення | Потрібен вхід і непорожній кошик |
 | `/login` | Демовхід | Будь-який коректний email і пароль від 6 символів |
-| `/orders` | Активні / виконані замовлення | — |
+| `/orders` | Активні / виконані замовлення | - |
 
 `GoRouter` налаштований у `lib/router/app_router.dart`. Три вкладки працюють через `StatefulShellRoute.indexedStack`, тому стан вкладки зберігається при перемиканні. `FoodAppState` є `refreshListenable` маршрутизатора: якщо користувач не ввійшов, оформлення перенаправляє на `/login`, а після входу повертає до запитаного шляху; порожній кошик перенаправляє на `/restaurants`. Невідомі адреси обробляє `errorBuilder`.
 
