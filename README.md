@@ -8,6 +8,8 @@
 flutter pub get
 flutter analyze
 flutter run -d emulator-5554
+Email: test@example.com
+Пароль: 123456
 ```
 
 ## Маршрути
