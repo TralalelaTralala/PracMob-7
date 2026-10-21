@@ -1,0 +1,35 @@
+{
+    "name": "PracMob-6ex2",
+    "short_name": "PracMob-6ex2",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F5F6FA",
+    "theme_color": "#6858D8",
+    "description": "Provider authentication and profile demo.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

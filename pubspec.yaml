@@ -1,0 +1,15 @@
+name: pracmob7
+description: Food delivery demo with guarded go_router routes.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^17.0.0
+
+flutter:
+  uses-material-design: true
